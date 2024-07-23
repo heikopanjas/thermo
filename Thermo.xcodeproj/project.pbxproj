@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		426771252C4DAB9A00430AAF /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426771242C4DAB9A00430AAF /* ViewModel.swift */; };
 		42E6490E2C4ACC830076EE63 /* ThermoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E6490D2C4ACC830076EE63 /* ThermoApp.swift */; };
 		42E649102C4ACC830076EE63 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E6490F2C4ACC830076EE63 /* ContentView.swift */; };
 		42E649122C4ACC840076EE63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42E649112C4ACC840076EE63 /* Assets.xcassets */; };
 		42E649152C4ACC840076EE63 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42E649142C4ACC840076EE63 /* Preview Assets.xcassets */; };
-		42E6491D2C4ACCC40076EE63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E6491C2C4ACCC40076EE63 /* AppDelegate.swift */; };
 		42F974732C4AFD5700F6646C /* LaunchAtLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 42F974722C4AFD5700F6646C /* LaunchAtLogin */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		426771242C4DAB9A00430AAF /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		42E6490A2C4ACC830076EE63 /* Thermo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thermo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42E6490D2C4ACC830076EE63 /* ThermoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermoApp.swift; sourceTree = "<group>"; };
 		42E6490F2C4ACC830076EE63 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		42E649112C4ACC840076EE63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42E649142C4ACC840076EE63 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		42E649162C4ACC840076EE63 /* Thermo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Thermo.entitlements; sourceTree = "<group>"; };
-		42E6491C2C4ACCC40076EE63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				42E6490D2C4ACC830076EE63 /* ThermoApp.swift */,
-				42E6491C2C4ACCC40076EE63 /* AppDelegate.swift */,
 				42E6490F2C4ACC830076EE63 /* ContentView.swift */,
+				426771242C4DAB9A00430AAF /* ViewModel.swift */,
 				42E649112C4ACC840076EE63 /* Assets.xcassets */,
 				42E649162C4ACC840076EE63 /* Thermo.entitlements */,
 				42E649132C4ACC840076EE63 /* Preview Content */,
@@ -150,8 +150,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42E6491D2C4ACCC40076EE63 /* AppDelegate.swift in Sources */,
 				42E649102C4ACC830076EE63 /* ContentView.swift in Sources */,
+				426771252C4DAB9A00430AAF /* ViewModel.swift in Sources */,
 				42E6490E2C4ACC830076EE63 /* ThermoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

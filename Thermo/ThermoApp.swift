@@ -1,20 +1,17 @@
-//
-//  ThermoApp.swift
-//  Thermo
-//
-//  Created by Heiko Panjas on 19.07.24.
-//
-
 import SwiftUI
 
 @main
 struct ThermoApp: App {
-    @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    @State var viewModel = ViewModel()
 
     var body: some Scene {
-        Settings {
-            EmptyView()
+        MenuBarExtra {
+            ContentView()
+        } label: {
+            Text(String(format: "%.1f°", viewModel.apparentTemperature))
+                .font(.system(.body, design: .monospaced))
         }
+        .menuBarExtraStyle(.window)
     }
 }
 
